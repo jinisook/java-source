@@ -8,7 +8,7 @@ public class ScannerEx1 {
         Scanner sc = new Scanner(System.in);
         System.out.println("숫자입력");
         int input = sc.nextInt();
-        System.out.printf("입력값 = %d", input);
+        System.out.printf("입력값 %d", input);
         sc.close();
 
     }

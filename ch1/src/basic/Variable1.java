@@ -7,7 +7,7 @@ public class Variable1 {
         int sum = num + 20;
         System.out.println("num 변수 값 : " + num);
         System.out.println("num + 20 : " + sum);
-        System.out.printf("num 변수 값 : %d", num);
+        System.out.printf("num 변수 값 = %d", num);
 
         int age = 25, maxSpeed = 10;
         System.out.println("age=" + age + ", maxSpeed=" + maxSpeed);
