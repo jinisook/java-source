@@ -17,13 +17,13 @@ public class WhileEx3 {
 
             if (num != 0) {
                 sum += num; // sum = sum + num
-                System.out.println("합계 : " + sum);
 
             } else {
                 // num == 0;
                 flag = false;
 
             }
+            System.out.println("합계 : " + sum);
         }
 
     }
