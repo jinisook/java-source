@@ -15,7 +15,7 @@ public class ArrayEx2 {
         // 1~10 임의의 수 생성 후 초기화
         int[] arr4 = new int[10];
         for (int i = 0; i < arr4.length; i++) {
-            arr4[i] = (int) (Math.random() * 10) + 1;
+            arr4[i] = (int) (Math.random() * 10) + 1; // 0.0 < Math.random() < 1.0
         }
 
         // 배열 길이가 명확하지 않는 경우 => 입력값으로 결정
@@ -27,7 +27,7 @@ public class ArrayEx2 {
         arr5 = new int[length];
 
         // 배열 출력
-        // Arrays.toString() : 배열이 가지고 있는 살제 값 출력
+        // Arrays.toString() : 배열이 가지고 있는 실제 값 출력
         System.out.println(Arrays.toString(arr1));
         System.out.println(Arrays.toString(arr2));
         System.out.println(Arrays.toString(arr3));
