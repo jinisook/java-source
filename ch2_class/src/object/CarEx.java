@@ -2,6 +2,9 @@ package object;
 
 public class CarEx {
     public static void main(String[] args) {
+
+        int x = 10;
+
         // Car 인스턴스 생성 : 생성자가 호출됨
         Car car = new Car();
 
@@ -32,6 +35,31 @@ public class CarEx {
 
         car3.setColor("green");
         System.out.println("색상 지정 후 car3 " + car3);
+
+        // println(car);
+        println(car2);
+        // println(car3);
+        // println(car4);
+        // println(car5);
+
+        // car2 println 호출 후 색상 값 변경 여부
+        System.out.println(car2);
+
+    }
+
+    public static void println(Car car) { // Car - Car 클래스 -> 괄호 안에 생성한 클래스를 부를 수 있음
+        // 값 변경
+        car.setColor("빨강");
+
+        System.out.println("-------------------");
+        System.out.println("제조회사 : " + car.getCompanyName());
+        System.out.println("모델명 : " + car.getModel());
+        System.out.println("색상 : " + car.getColor());
+        System.out.println("최고속도 : " + car.getMaxSpeed());
+        System.out.println("-------------------");
+    }
+
+    public static void test(String sre) {
 
     }
 
