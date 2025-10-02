@@ -9,6 +9,15 @@ public class Account {
     private String owner;
     private long balance;
 
+    public Account(String accountNo) {
+        this.accountNo = accountNo;
+    }
+
+    public Account(String accountNo, String owner) {
+        this.accountNo = accountNo;
+        this.owner = owner;
+    }
+
     public Account(String accontNo, String owner, long balance) {
         this.accountNo = accontNo;
         this.owner = owner;
@@ -22,7 +31,7 @@ public class Account {
     }
 
     // 출금액(잔액 = 잔액 - 출금액) => 출금액을 인자로 받아서 처리, 잔액 리턴, withdraw
-    void withdraw(long amount) throws Exception {
+    long withdraw(long amount) throws Exception {
         // 잔액 안에서 출금 허용
         if (amount > balance) {
             throw new Exception("잔액부족");
@@ -30,7 +39,7 @@ public class Account {
         }
 
         balance -= amount;
-        // return balance;
+        return balance;
     }
 
     // 속성 값 조회 : get~~ 붙여서 사용

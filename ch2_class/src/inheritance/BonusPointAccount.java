@@ -16,6 +16,11 @@ public class BonusPointAccount extends Account {
         // 예금한다(부모꺼 호출)
         super.deposit(amount);
         // 보너스 포인트 적립 : 예금액의 1%
+        int point = (int) (amount * 0.01);
+        bonusPoint += point;
+    }
 
+    public int getBonusPoint() {
+        return bonusPoint;
     }
 }

@@ -1,5 +1,7 @@
 package object;
 
+import java.util.Scanner;
+
 public class Account {
     // 은행계좌
     // 계좌번호(120-12-111), 계좌주(홍길동), 잔액(100000)
@@ -8,6 +10,7 @@ public class Account {
     private String accountNo;
     private String owner;
     private long balance;
+    Scanner sc = new Scanner(System.in);
 
     public Account(String accontNo, String owner, long balance) {
         this.accountNo = accontNo;
