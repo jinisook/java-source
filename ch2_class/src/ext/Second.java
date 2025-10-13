@@ -14,7 +14,6 @@ public class Second extends Parent {
         // super.grade = "B";
 
         super.grade = "B";
-
         parent.getNum1();
     }
 

@@ -6,6 +6,8 @@ public class Third {
     public void info() {
         parent.setNum1(10);
         parent.name = "성이름";
+        parent.grade = "A";
+
     }
 
 }
