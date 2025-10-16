@@ -44,7 +44,7 @@ public class StringEx2 {
             System.out.println("텍스트 파일 아님");
         }
 
-        // 5. equals() : 문자열 비교, equalsIngnoreCase() : 대소문자 구별 없이 비교
+        // 5. equals() : 문자열 비교, equalsIgnoreCase() : 대소문자 구별 없이 비교
         System.out.println("aaa".equals("cccc"));
         System.out.println("aaa".equalsIgnoreCase("AAA"));
 

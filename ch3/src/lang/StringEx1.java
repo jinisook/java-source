@@ -2,7 +2,7 @@ package lang;
 
 public class StringEx1 {
     public static void main(String[] args) {
-        // 다른 클래스 사용
+        // 다른 클래스 사용 하기 위해서는,
         // 1. 인스터스 생성
         // String str = new String("tokuno"); -> 기본 방식이지만, String(많이 사용하는 클래스)은 new 생략해도
         // 가능
