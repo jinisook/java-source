@@ -21,7 +21,7 @@ public class ArraysEx1 {
         int[] copyArr = Arrays.copyOf(arr, arr.length);
         System.out.println(Arrays.toString(copyArr));
 
-        int[] copyArr2 = Arrays.copyOfRange(arr, 1, 3);
+        int[] copyArr2 = Arrays.copyOfRange(arr, 1, 3); // 1번째자리부터 3번째자리 copy (3번째자리는 포함X)
         System.out.println(Arrays.toString(copyArr2));
     }
 }

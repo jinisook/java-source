@@ -22,7 +22,7 @@ public class ExceptionEx3 {
 
         // 2. ArrayIndexOutOfBoundException
         // 배열 인데스가 바운드에 벗어남 [10] -> 11번 접근 (X)
-        // String data1 = args[0];
+        // String data1 = args[0]; // main(String[] args)에서 가져옴 -> 아직 값 초기화X
         // System.out.println(data1); // ArrayIndexOutOfBoundException
 
         // ArrayIndexOutOfBoundException을 사전방지 하는 방법 if문 사용

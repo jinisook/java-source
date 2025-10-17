@@ -8,7 +8,7 @@ public class ListEx1 {
     public static void main(String[] args) {
         String[] str1 = { "" };
         List<String> list1 = new ArrayList<>();
-        // 추가할 때는 add 메소드 사용 => append와 같은 개념
+        // 추가할 때는 add 메소드 사용 => append와 같은 개념 (원본변경O)
         list1.add("사과");
         list1.add("귤");
         list1.add("수박");
@@ -18,7 +18,7 @@ public class ListEx1 {
         list1.add("감");
 
         System.out.println(list1);
-        System.out.println(list1.get(3)); // 순서가 있어서 index 지정 가능
+        System.out.println(list1.get(3)); // 순서(배열)가 있어서 index 지정 가능
 
         System.out.println("리스트 요소 개수 " + list1.size());
 
